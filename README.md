@@ -52,6 +52,4 @@ The Extension will be loaded and gets activated at trigger time.
 `CLOUD_SECRET` 
 
 -To get all of these, you need to signup at [Cloudinary](https://cloudinary.com/). Go though the website to get detailed information about Cloudinary.
-  
-  -
  
