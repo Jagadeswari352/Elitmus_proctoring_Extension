@@ -1,0 +1,29 @@
+/* ---------------- css for content page / tab which is open ---------------- */
+
+/* ------- Will blur the background and implement required changes. ------ */
+.bg {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99000;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+/* --- Will edit the video player which you can see in bottom right corner -- */
+video {
+    position: fixed;
+    border-radius: 1em;
+    object-fit: cover;
+    right: 1em;
+    bottom: 1em;
+    width: 240px;
+    height: 144px;
+    z-index: 99001;
+}

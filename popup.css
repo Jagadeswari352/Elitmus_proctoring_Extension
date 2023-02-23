@@ -1,0 +1,72 @@
+/* ---- css for the popup that opens when we click on the extension icon ---- */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* ----------------------- basic styling for the popup ---------------------- */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* --------------------- style main container component --------------------- */
+.container {
+    padding: 2em;
+    width: 20em;
+    margin-inline: auto;
+    background-color: #4f3755;
+    display: flex;
+    justify-content: center;
+}
+
+/* -------------------------- style input fields ------------------------- */
+input{
+    margin-bottom: 1em;
+    margin-top: .12em;
+    font-weight: 600;
+    height: 2.5em;
+    display: block;
+    padding: .5em;
+    transition: opacity .5s;
+    width: 15em;
+    outline: none;
+    border: none;
+    border-radius: .5em;
+}
+input:focus{
+    outline: none;
+    opacity: .4;
+}
+label{
+    font-weight: bold;
+    color: white;
+    font-size: .95em;
+}
+button{
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: .5em;
+    border: 1px solid white;
+    margin-top: 1em;
+    margin-inline: auto;
+    outline: none;
+    font-size: 1em;
+    font-weight: bold;
+    padding: .3em;
+}
+button:hover{
+    transition-duration: .5s;
+    background-color: white;
+    color: #082032;
+}
+
+/* -------------------------- style admin link ------------------------- */
+.admin-link{
+    color: rgba(89, 225, 235, 0.99);
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
